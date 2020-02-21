@@ -1,13 +1,11 @@
 {
-  "name": "npm-react-typescript-template",
+  "name": "dummy-counter",
   "version": "1.0.0",
-  "description": "A template for publishing a React + TypeScript package to npm",
+  "description": "A dummy counter component",
   "author": "ovieokeh",
   "license": "Apache-2.0",
-  "repository": "ovieokeh/npm-react-typescript-template",
+  "repository": "ovieokeh/dummy-counter",
   "main": "dist/index.js",
-  "module": "dist/index.es.js",
-  "jsnext:main": "dist/index.es.js",
   "engines": {
     "node": ">=8",
     "npm": ">=5"
@@ -24,7 +22,6 @@
   "devDependencies": {
     "@rollup/plugin-commonjs": "^11.0.1",
     "@rollup/plugin-node-resolve": "^7.0.0",
-    "@rollup/plugin-url": "^4.0.1",
     "@types/react": "^16.3.13",
     "@types/react-dom": "^16.0.5",
     "babel-core": "^6.26.3",
@@ -32,9 +29,8 @@
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "rollup": "^1.29.0",
-    "rollup-plugin-css-only": "^2.0.0",
+    "rollup-plugin-sass": "^1.2.2",
     "rollup-plugin-typescript2": "^0.25.3",
-    "tslib": "^1.10.0",
     "typescript": "^2.8.3"
   },
   "files": [
